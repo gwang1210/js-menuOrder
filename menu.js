@@ -6,7 +6,7 @@ var order = "one za";
 
 function question(ask, item) {
   // your code goes here
-  var answerInput = prompt(item);
+  var answerInput = prompt("do you want" + item);
   if ( answerInput.toUpperCase() === "YES" ) {
 order = order + " with " + item + " ,";   
 } else if ( answerInput.toUpperCase() === "NO" ) {
