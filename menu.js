@@ -1,5 +1,5 @@
 // begin with a blank/new order
-var order = "one pizza";
+var order = "one za";
 
 
 // build a function to ask questions
@@ -14,15 +14,17 @@ order = order + " no " + item  + " ,"
 }
 
 // call the QUESTION function with the order options
-var pizza = prompt("Welcome to Pizza Shack! Would you like to order a pizza?");
+var pizza = prompt("Suh dude. Welcome to the Za Shack! Would you like to order a za, bruh?");
 if ( pizza.toUpperCase() === 'NO' ) {
  order = "no pizza"
 } else if ( pizza.toUpperCase() === 'YES' ) {
 question("do you want," "cheese");
 question("do you want," "pepperoni");
-question("do you want," "sausange");
+question("do you want," "sausage");
 question("do you want," "ground beef");
 question("do you want," "bacon");
+question("do you want," "more bacon");
+question("do you want," "even more bacon");
 question("do you want," "green peppers");
 question("do you want," "onions");
 question("do you want," "spinach");
