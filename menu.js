@@ -8,9 +8,10 @@ function question(ask, item) {
   // your code goes here
   var answerInput = prompt(item);
   if ( answerInput.toUpperCase() === "YES" ) {
-order = order + " with " + item + " ,"   
+order = order + " with " + item + " ,";   
 } else if ( answerInput.toUpperCase() === "NO" ) {
-order = order + " no " + item  + " ," 
+order = order + " no " + item  + " ,"; 
+}
 }
 
 // call the QUESTION function with the order options
