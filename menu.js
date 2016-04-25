@@ -23,16 +23,7 @@ order = "no za"
 
 //array
 
-var options [
-  "cheese"
-  "pepperoni"
-  "sausage"
-  "bacon"
-  "spinach"
-  "mushrooms"
-  "green peppers"
-  "tomato sauce"
-  ];
+var options ["cheese", "pepperoni", "sausage", "bacon", "spinach", "mushrooms", "green peppers", "tomato sauce"];
   var i = 0;
   while (i<options.length) {
     question(options[i]);
